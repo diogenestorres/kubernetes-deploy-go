@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "ssp-go.net:v99999"
+const webContent = "ssp-go.net:v9999"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
